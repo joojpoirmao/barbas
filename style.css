@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+header{
+    padding: 30px;
+    background-color: rgb(160, 145, 145);
+  }
+  
+  
+  .header-logo{
+    position: absolute;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  
+  .Display-inline{
+    display: inline;
+  }
+  
+  #logo-position{
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .Position-Itens{
+    text-align: end;
+    top: 15px;
+  }
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: white;
+}
+ 
+  
+  .Titulo{
+    position: absolute;
+    left: 400px;
+    font-size: 24px;
+  }
+
+  .display-caralho{
+    display: block;
+  }
+  
+  #video{
+    top: 100px;
+    left: 15px;
+  }
+
+  .Maps{
+    top: 100px;
+    left: 15px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .beneficios{
+   top: 20px;
+   left: 15px;
+   width: 500px;
+   height: 200px;
+  }
+
+  .utensilios{
+    top: 20px;
+    left: 15px;
+    width: 500px;
+    height: 200px;
+  }
+
+  footer{
+    position: relative;
+    text-align: center ;
+     background-image: url(../img/bg.jpg);
+     padding: 40px 0;
+  }
+
+  main{
+    padding: 30px 0 0 0 ;
+    background: linear-gradient(#ffffff, #353131);
+  }
+  .Main{
+    height: 400px;
+  }
+  
+  .produtos{
+   width: 940px;
+   margin: auto;
+  }
+
+  .produtos li{
+  display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  }
+
+  .cabelo{
+   display: inline-block;
+  }
+
+
+  .produtos li:hover{
+    border-color: darkred;
+  }
+
+  .produtos li:active{
+    border-color: greenyellow;
+  }
